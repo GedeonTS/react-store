@@ -1,0 +1,69 @@
+
+
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+  flex-direction: column;
+}
+
+.carousel {
+  position: relative;
+}
+.caroussel-image {
+  width: 100%;
+}
+
+.next-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 20px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #b8b6b6e0;
+  color: white;
+}
+
+.prev-button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  margin-left: 20px;
+  background-color: #b8b6b6e0;
+  color: white;
+
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+.option {
+width: 9%;
+min-width: 20px;
+}
+
+.option-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
